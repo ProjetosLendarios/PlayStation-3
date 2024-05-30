@@ -1,0 +1,78 @@
+Version 2.1
+===========================================
+Added Support for including Sound effects into your theme.
+Added XMB background to the previews.
+Added color to the previews.
+Fixed German / Spanish bug causing the update dialog to always display.
+Fixed Pointer Icon Delete button.
+Fixed Background Set Add button (it's now consistent)
+Fixed assembly version.  The application was reporting it was version 1.6.0.1 in the about box when it was actually 2.0.0.0, now it's 2.1.0.0
+Some error message were showing a \r\n in the middle....  I fixed that.
+Moved the "Test Drive" button so it can be used easily on any tab.
+Added support to upload to themes to PS3Files.net - this returns BB / HTML code you can use to post your theme out on the tubes.
+
+
+
+Version 2.0
+===========================================
+Fixed the bug that was causing the application fail for some users on startup.
+Finished refactoring code, app should be faster, less memory hogging now.
+Added support for localized versions of the software.
+Added ability to cycle through the backgrounds during Test Drive.
+Added ability to save the current test drive view as the preview.
+All icons can now be deleted.
+Local information is fully supported now.
+A creator icon can be created for each supported language.
+A theme icon can be created for each supported language.
+Pointer Hotspots and icons fully functional.
+Theme Extractor fully functional
+Fixed a bunch of other bugs.
+
+
+Version 1.6
+===========================================
+Additional Bug Fixes
+Refactored a whole bunch of code
+Added ability to copy P3T files to a usb drive
+Added ability to create themes from p3t files
+Added ability to remove Icons
+
+
+Version 1.5
+===========================================
+Added code to detect if a new version of the software is available.
+Multiple bug fixes
+
+
+Verion 1.4.1
+===========================================
+Fixed an issue where the backgroud color was not displaying properly
+Fixed the issue that caused the HD background to get set to the SD background.
+
+
+Version 1.4
+===========================================
+Multiple bug fixes.
+Added a test drive mode
+
+Version 1.3
+===========================================
+Multiple bug fixes..
+Added support for custom pointers
+Added an additional Preview
+Updated Preview Descriptions
+Changed the "PS" preview to "PS3"
+
+
+Version 1.2
+===========================================
+Addressed issue that prevent users from making partial themes.
+Added one additional preview mode
+
+
+Version 1.1
+===========================================
+Support for multiple background sets. 
+Support for localized theme information. 
+New theme preview generation templates. 
+Theme previews are saved in 2 sizes, one the standard size used by the PS3, and a second larger preview that you can be used in WebPages. 
