@@ -13,3 +13,5 @@
 [https://www.psx-place.com/threads/ps3-gamepad-test.144/](https://www.psx-place.com/threads/ps3-gamepad-test.144/)
 
 [https://github.com/ErikPshat/GamePad-Test](https://github.com/ErikPshat/GamePad-Test)
+
+[https://psdevwiki.com/ps3/Template:PS3_HDD_Game_Structure](https://psdevwiki.com/ps3/Template:PS3_HDD_Game_Structure)
