@@ -5,6 +5,6 @@
 
 [https://www.youtube.com/watch?v=jsXshfeHs38](https://www.youtube.com/watch?v=jsXshfeHs38)
 [https://www.youtube.com/watch?v=PlCBfbLm4II](https://www.youtube.com/watch?v=PlCBfbLm4II)
-
+[https://github.com/friendlyanon/CFW2OFW-Helper](https://github.com/friendlyanon/CFW2OFW-Helper)
 
 [PS3xploit.me](PS3xploit.me)
