@@ -1,0 +1,106 @@
+PS3 ISO TOOLS
+
+  V2.2 - Changelog
+  
+  ********************** ENGLISH ***********************
+  - Bug fix: Fixed the sometimes strange behaviour of the patch-checkbox ('Create ISO(s)')
+  - Selectable firmware range is now up to 4.76 (Main menu & 'Patch ISO')
+  - '[auto]'- and '[online]'-tags could now be added to ISO-filenames ('Create ISO(s)' & 'Modify ISO(s)')
+  
+  ************************ DEUTSCH ************************
+  - Bug fix: Das manchmal merkwürdsame Verhalten der Patch-Checkbox ist jetzt gefixt ('Create ISO(s)')
+  - Die Firmware kann nun bis 4.76 ausgewählt werden (Hauptmenü & 'Patch ISO')
+  - Die ISO-Dateinamen können nun mit '[auto]'- und '[online]'-Tags versehen werden ('Create ISO(s)' & 'Modify ISO(s)')
+  
+  
+  
+  
+  V2.1.1 - Changelog
+ 
+********************** ENGLISH *********************** 
+  - Bug fix: "Patch ISO"-function now really does a forced patching(range 4.20 to 4.66)
+  - "Patch ISO"-function will be disabled for CFW below 4.20
+  - Added recursive directory scan for "Create ISO(s)"-function (batch mode)
+  - Added saving of all used options to config file upon program exit
+  - Added option for CFW-users to select program which creates the ISO ("makeps3iso", "genps3iso")
+  - No more "thumbs.db" in created ISO
+  - Fixed wrong warnings in log-file
+  - A missing "PS3_DISC.SFB" will only be added if you set up PS3-System as ODE(for better "stealth")
+
+************************ DEUTSCH ************************ 
+  - Bug fix: "Patch ISO"-Funktion macht nun tatsächlich ein erzwungenes Patching(Bereich von 4.20 bis 4.66)
+  - "Patch ISO"-Funktion wird abgeschaltet, wenn die CFW unter 4.20 ist
+  - Recursive Suche nach Spiele-Ordnern im "Batch-Modus" der "Create ISO(s)"-Funktion
+  - Alle Optionen werden nun beim verlassen des Programms in der Konfigurationsdatei gespeichert
+  - Als CFW-User kann man nun wählen welches Programm die Umwandlung in ISO macht("makeps3iso", "genps3iso")
+  - Es befinden sich nun keine ungewollten "thumbs.db"-Dateien mehr in den erzeugten ISOs
+  - Keine falschen Warnings mehr im Log-File
+  - Eine fehlende "PS3_DISC.SFB"-Datei wird nur dann hinzugefügt(wegen besserem "stealth"), wenn man ein ODE-System eingestellt hat
+
+
+
+
+
+
+  V2.0 - Changelog
+  
+********************** ENGLISH ***********************
+  
+!!! MAIN INTENTION FOR THIS NEW VERSION WAS ODE COMPATIBILITY !!!
+
+- Makes some reasonable pre-selections depending on users PS3 system
+
+- ISO(s) are now created via "genps3iso_v2.5" instead of "makeps3iso" for ODE compatibility
+
+- Proper and complete ODE/CFW compatible game patching to 3.55 (even not all of the newer games will run on CFW 3.55)
+  Patches PARAM.SFO, EBOOT.BIN, *.sprx, *.self and *.sdat files
+  The new patch functionality can be found at "ISO Conversion Options"
+  Note 1: To force patching use the "Always"-Option instead of the "If needed"-Option
+  Note 2: Use "Just Patch..." - Option if you don't want to create an ISO... intended for Non-Cobra-CFW-Users
+
+- "Patch ISO"-function, which is kind of a 'dirty' in-ISO-patching), now patches always(forced) to any firmware version between 3.55 and 4.66
+  Note 3: This will only work for CFW-User... so it's greyed out when u set up an ODE-system.
+
+- Automaticly generates backups of original/patched files as zip files for simple restoring (only for proper patching)
+
+- Excluding "PS3_UPDATE" folder from ISO is now optional
+
+- Creates missing "PS3_DISC.FSB" file
+
+- Readme updated
+
+!!! FOR MORE INFORMATION PLEASE READ THE README AND THE TOOLTIPS !!!
+
+Regards
+Rudi
+
+
+************************ DEUTSCH ************************
+
+!!! DIE HAUPTINTENTION FÜR DIESE NEUE VERSION WAR DIE ODE KOMPATIBILITÄT !!!
+
+- Trifft sinnvolle Voreinstellungen abhängig vom PS3 System des Benutzers
+
+- Um ODE-Kompatibilität zu erreichen werden ISO(s) nun von "gensp3iso_v2.5" anstelle  "makeps3iso" erstellt
+
+- Spiele können nun auf eine saubere Art ODE/CFW kompatibel auf 3.55 gepacht werden (auch wenn nicht alle neueren Games auf einer 3.55 CFW laufen werden).
+  Gepatcht werden PARAM.SFO, EBOOT.BIN, *.sprx, *.self und *.sdat Dateien
+  Die neue Patch-Methode findet sich bei den "ISO Conversion Options"
+  Hinweis 1: Benutze die "Always"-Option anstelle der "If Needed"-Option um ein Patchen zu erzwingen
+  Hinweis 2: Setze die "Just Patch..."-Option, wenn man nur patchen, aber keine ISO(s) erstellen will... gedacht für Nicht-Cobra-CFW-Benutzer
+  
+- Die "Patch ISO"-Funktion, die eher auf eine 'dreckige' Art und Weise arbeitet, patcht jetzt auf jeden Fall auf eine Firmware-Version zwischen 3.55 und 4.66
+  Hinweis 3: Dies funktioniert nur für CFW-Benutzer... für ODE-Benutzer ist diese Funktion deshalb deaktiviert
+
+- Erstellt automatisch Backups der orginalen/gepatchten Dateien als zip-Dateien, die man, zur einfachen Wiederherstellung des ursprünglichen Zustands des Spiels, nutzen kann.
+
+- Der Ausschluss des "PS3_UPDATE"-Ordners von der ISO ist jetzt optional
+
+- Erzeugt eine ggf nicht vorhandene "PS3_DISC.FSB"-Datei
+
+- Liesmich geupdated
+
+!!! FÜR WEITERE INFORMATIONEN LEST BITTE DIE LIESMICH UND DIE TOOLTIPS !!!
+
+Gruß
+Rudi

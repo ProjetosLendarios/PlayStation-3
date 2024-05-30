@@ -1,0 +1,72 @@
+*****************************************************************
+*                       PS3 ISO TOOLS V2.2                      *
+* by Rudi Rastelli                                              *
+*****************************************************************
+* Credits:                                                      *
+* @Estwald für "extractps3iso" & "fixps3iso"                    *
+* @Rip Cord für "resign_eboot", "resprx", "resspu" & "selfinfo" *
+* @erbse68, Dennis S., @masa3108 für's testen                   *
+*****************************************************************
+
+Beschreibung:
+*************
+"PS3 ISO TOOLS" ist ein All-In-One Tool für ODE- und CFW-User:
+
+- ISO-Generator zum konvertieren von PS3-Ordner-Format-Spielen in PS3-ISO-Format-Spiele (geteilte Big-files werden automatisch zusammengefügt)
+- ISO-Extractor zum konvertieren von PS3-ISO-Format-Spielen in PS3-Ordner-Format-Spiele (Big-Files werden optional aufgeteilt) 
+- ISO-Splitter  zum aufteilen von einzelnen PS3-ISOs, um sie auf einer FAT32 formatieren Festplatte nutzen zu können ("*.iso.0", "*.iso.1", ...etc)
+- ISO-Joiner    zum zusammenfügen von geteilen PS3-ISOs
+- ISO-Modifier  zum umbenennen von einzelnen oder geteilten PS3-ISOs abhängig von den Einträgen in der PARAM.SFO (Game-Info-Datei)
+                zum anhängen der '[auto]'- und '[online]'-Tags an die ISO-Dateinamen (das ist eine webMAN_mod Funktion)
+                zum verstecken/sichtbar machen von Teilen geteilter ISOs ("*.iso.1", "*.iso.2", ...etc)
+                zum extrahieren und speichern von "PARAM.SFO" und "ICON0.PNG" als "[ISO-name].SFO" bzw "[ISO-name].PNG" im ISO-Ordner
+- ISO-Patcher   zum 'dreckigen' patchen von einzelnen oder geteilten PS3-ISOs auf eine niedrigere Firmware Version (runter bis 4.20)... NUR FÜR CFW AB 4.20
+- Game-Patcher  zum 'sauberen' patchen von PS3-Ordner-Format-Spielen auf Firmware-Version 3.55... FÜR ODE- UND CFW-USER
+
+Benutzung:
+**********
+Soweit selbsterklärend... Lesen Sie die Tool-Tips
+
+
+Anmerkungen:
+************
+- Es ist wichtig seine PS3-System im Hauptfenster richtig einzustellen, da PS3 ISO TOOLS davon abhängig diverse Voreinstellungen auswählt.
+
+- Um mehrere Spiele auf einmal in ISO(s) umzuwandeln einen Ordner als Quelle wählen, der mehrere Spiele enthält(beliebeige Ordnertiefe).
+
+- Alle anderen Tools, mit Ausnahme des ISO-Patchers, unterstützen diese Stapel-Abarbeitung ebenfalls. Wählt einfach alle ISOs, die Ihr bearbeiten wollt, auf einmal aus.
+
+- Wenn man als Ziel ein FAT32-Laufwerk beim konvertieren von Ordner-Format zu ISO-Format auswählt, werden die ISO(s), auch ohne die Split-Option zu setzen, gesplittet.
+
+- Die ISO-Namen enthalten normalerweise NICHT die speziellen ASCII-Zeichen 0-31, 126-255 and auch nicht /\:*?"<>| ... Das dient dazu Probleme mit webMAN zu vermeiden.
+  (in den "ISO-Conversion-Options" kann man die speziellen ASCII-Zeichen 126-255, wie etwa '™' oder '®', aber erlauben)
+
+- Nach der Umwandlung wird eine Log-Datei angezeigt, die die Größen und die Anzahl der Dateien vergleicht.
+
+- 'Sauberes' patchen geht nur auf 3.55, weil die privaten Schlüssel oberhalb 3.60+, die zum signieren benötigt werden, bisher nicht released wurden.
+
+
+Tipps:
+******
+
+- Lasst ihr beim Umwandeln ins ISO-Format die "PARAM.SFO" und "ICON0.PNG"(Game-Icon) extrahieren, so werden diese versteckt als "[ISO-Name].SFO" und "[ISO-Name].PNG" im Zielverzeichnis abgelegt.
+  Wenn ihr webMAN benutzt, dann kopiert euch die 2 Dateien(pro Spiel) nach "/dev_hdd0/tmp/wmtmp/". Das erspart das einmalige Mounten der Games, damit webMAN die Icons anzeigt.
+
+- Beim Umwandeln sollte der Spiele-Ordner, oder aber eine der Dateien im Spiele-Ordner, nicht auf irgendeine Weise geöffnet sein.
+
+- Unterbrochene Stapel-Bearbeitungen können fortgesetzt werden. Bereits fertig gestellte Umwandlungen werden dabei übersprungen.
+
+- Die Möglichkeit ein Spiel zu patchen findet sich in den "Create ISO(s) Options".
+  Versucht zuerst die vorgegebene Einstellung. Dann wird das Spiel nur dann gepacht, wenn dessen Firmware-Version größer ist als die des eingestellten Systems.
+  Sollte PS3 ISO TOOLS nichts patchen und das Spiel dann nicht laufen, dann versucht die "Always"-Option.
+  Die "Don't Create ISO(s)"-Option ist für CFW-User gedacht, die nur das Spiel im PS3-Ordner-Format patchen möchten ohne anschliessend eine ISO zu erstellen.
+
+- Während des Patchens werden die zu patchenden Orginal-Dateien und die dann gepatchten-Dateien im "PS3 ISO TOOLS"-Verzeichnis in den beiden Ordnern
+  "ORIGINAL_FILES_ARCHIVE" und "PATCHED_FILES_ARCHIVE" als zip-Dateien angelegt. Um den Orginalzustand eines Spiels wiederherzustellen, entpackt man die
+  zip-Datei mit den Original-Dateien einfach wieder im jeweiligen Spieleordner.
+
+- Testet Eure Spiele immer zuerst ohne installierte Spiele-Updates
+
+
+Gruß
+ Rudi

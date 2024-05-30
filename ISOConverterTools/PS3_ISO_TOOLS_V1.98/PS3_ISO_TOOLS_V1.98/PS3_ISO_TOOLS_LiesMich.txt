@@ -1,0 +1,51 @@
+****************************************************************
+*                      PS3 ISO TOOLS V1.97B                    *
+* by Rudi Rastelli                                             *
+****************************************************************
+* Credits:                                                     *
+* @Estwald für "makeps3iso", "extractps3iso" and "patchps3iso" *
+****************************************************************
+
+Beschreibung:
+*************
+"PS3 ISO TOOLS" ist ein All-In-One Tool für ein komplettes PS3-ISO Handling und beinhaltet:
+
+- ISO-Generator zum konvertieren von PS3-Ordner-Format-Spielen in PS3-ISO-Format-Spiele (geteilte Big-files werden automatisch zusammengefügt)
+- ISO-Extractor zum konvertieren von PS3-ISO-Format-Spielen in PS3-Ordner-Format-Spiele (Big-Files werden optional aufgeteilt) 
+- ISO-Splitter  zum aufteilen von einzelnen PS3-ISOs, um sie auf einer FAT32 formatieren Festplatte nutzen zu können ("*.iso.0", "*.iso.1", ...etc)
+- ISO-Joiner    zum zusammenfügen von geteilen PS3-ISOs
+- ISO-Modifier  zum umbenennen von einzelnen oder geteilten PS3-ISOs abhängig von den Einträgen in der PARAM.SFO (Game-Info-Datei)
+                zum verstecken/sichtbar machen von Teilen geteilter ISOs ("*.iso.1", "*.iso.2", ...etc)
+                zum extrahieren und speichern von "PARAM.SFO" und "ICON0.PNG" als "[ISO-name].SFO" bzw "[ISO-name].PNG" im ISO-Ordner
+- ISO-Patcher   zum patchen von einzelnen oder geteilten PS3-ISOs in eine niedrigere Firmware Version (runter bis 4.21)
+
+
+Benutzung:
+**********
+Soweit selbsterklärend... Lesen Sie die Tool-Tips
+
+
+Anmerkungen:
+************
+- Man kann alle Spiele im PS3-Ordner-Format auf einmal in ISOs umwandeln, wenn man sein Game-Archiv als Quelle auswählt (Z.B. "X:\GAMES" oder "X:\GAMESZ")
+- Alle anderen Tools, mit Ausnahme des ISO-Patchers, unterstützen diese Stapel-Abarbeitung ebenfalls. Wählt einfach alle ISOs, die Ihr bearbeiten wollt, auf einmal aus.
+- Die ISO-Namen enthalten normalerweise NICHT die speziellen ASCII-Zeichen 0-31, 126-255 and auch nicht /\:*?"<>| ... Das dient dazu Probleme mit webMAN zu vermeiden.
+  (in den "ISO-Conversion-Options" kann man die speziellen ASCII-Zeichen 126-255, wie etwa '™' oder '®', aber erlauben)
+- Nach der Umwandlung wird eine Log-Datei angezeigt, die die Größen und die Anzahl der Dateien/Ordner vergleicht.
+  Die eventül im Game-Ordner vorhandene Firmware-Update-Datei 'PS3UPDAT.PUP' wird nicht ins ISO übernommen. Deshalb sieht man in diesem Fall dann in der Log-Datei, dass das
+  erzeugte ISO etwa 256MB kleiner ist, als der ursprüngliche Game-Ordner. Das ist völlig in Ordnung so und ergibt deswegen auch einen OK-Status im Log.
+
+
+Tipps:
+******
+- Beim Umwandeln ins ISO-Format werden die beiden Dateien "PARAM.SFO" und "ICON0.PNG"(Game-Icon) extrahiert und (versteckt) als "[ISO-Name].SFO" und "[ISO-Name].PNG" im Zielverzeichnis abgelegt.
+  Wenn ihr webMAN benutzt, dann kopiert euch die 2 Dateien(pro Spiel) nach "/dev_hdd0/tmp/wmtmp/". Das erspart das einmalige Mounten der Games, damit webMAN die Icons anzeigt.
+- Unterbrochene Stapel-Bearbeitungen können fortgesetzt werden. Bereits fertig gestellte Umwandlungen werden dabei übersprungen.
+- Zum Patchen unter Windows 8(.1) Rechtsklick auf die "PS3_ISO_TOOLS.exe" und "Als Administrator ausführen" auswählen
+
+
+
+
+
+Gruß
+ Rudi
