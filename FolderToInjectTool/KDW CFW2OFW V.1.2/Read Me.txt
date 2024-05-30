@@ -1,0 +1,49 @@
+KDW CFW2OFW V.1.2 GUI
+By tomyrambozha.fv / kdwgamestore / ErikPshat / Purnama Giri
+
+Changelogs : 
+
+- GUI Interface
+- Support windows x86/32/64 Version
+- Fix insert disc issues
+- Auto generate LIC.DAT and fix LIC.EDAT
+- Auto Copy PS3 GAME folder
+- Autodetect region code
+- gameupdatexxxxxxx.pkg auto patch into converted game
+- Result as NPXXX and BLXXX folder
+
+
+How to use :
+1. Check your game REGION CODE [EX : PES 2013 / BLES01709 ]
+2. Open CFW2OFW V.1.2, with RUN ADMINISTRATOR, Then click PS3 GAME UPDATE [by aldotools]
+3. type your game REGION CODE to Title ID : then verify, download 1 update files only [game update must have EBOOT.BIN inside USDIR]
+4. Right click and download
+5. select load pkg , go to kdw_tools\downloads\your pkg shown here, select it
+6. select PS3_GAME folder of your backup game, THEN OK, wait until 
+   " message : converting successfull " close application then "
+7. new folder NPXXXX And BLXXXX, 
+8. if u in ofw 4.70 Below, inject NPXXXX And BLXXXX folder into your backup with TRUANCESTOR BACKUP INJECTOR JIKKYU
+9. if u in ofw 4.70++, copy NPXXXX And BLXXXX , into your external drive, then 
+   copy to your PS3CFW in dev_hdd0/game/here
+10. then rebuild database your ps3 cfw, then data transfer to your ps3 ofw
+
+Note":
+1. U can simple use "DATABASE REBUILDER.PKG" install into your ps3 cfw to 
+rebuild database with 1 click
+2. "if you wanna how to fix bug, error, freeze, blackscreen and more please visit : 
+https://docs.google.com/spreadsheets/d/152O_HwcNObA_AvU0VVD9jNguhGBS0-oB3LifS3IwydU/edit#gid=633229952
+4. Please RUN ADMINISTRATOR KDW CFW2OFW V.1.2.EXE
+5. do not rename your ps3gameupdate.pkg files NAME , leave it original
+6. If you got error / crash, run task manager, please end task "make_npdata"/"convert.exe" .
+   then try again, if you got same issues, restart your PC
+
+Credits :
+tomyrambozha, team-kdw, ErikPshat, aldotools,Jikkyu, Hykem,stahlworks,$npR, purnama giri for GUI
+and every people has contributed ..
+
+Spesial thanks for " ErikPshat, Jikkyu & aldotools "
+
+FORUM Support :
+psxhax.com - pspx.ru - logic-sunrise.com - psx-place.com - psx-core.ru -
+cybermodding.it - ps3hax.net - bbs.duowan.com - gizoogle.net - peshdx.com
+ biteyourconsole.net - team reballing indonesia
