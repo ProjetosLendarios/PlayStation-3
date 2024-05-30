@@ -11,3 +11,5 @@
 
 
 [https://www.psx-place.com/threads/ps3-gamepad-test.144/](https://www.psx-place.com/threads/ps3-gamepad-test.144/)
+
+[https://github.com/ErikPshat/GamePad-Test](https://github.com/ErikPshat/GamePad-Test)
