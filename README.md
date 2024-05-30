@@ -8,3 +8,6 @@
 [https://github.com/friendlyanon/CFW2OFW-Helper](https://github.com/friendlyanon/CFW2OFW-Helper)
 
 [PS3xploit.me](PS3xploit.me)
+
+
+[https://www.psx-place.com/threads/ps3-gamepad-test.144/](https://www.psx-place.com/threads/ps3-gamepad-test.144/)
