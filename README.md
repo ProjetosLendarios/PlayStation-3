@@ -18,3 +18,7 @@
 [https://psdevwiki.com/ps3/Template:PS3_HDD_Game_Structure](https://psdevwiki.com/ps3/Template:PS3_HDD_Game_Structure)
 
 [https://www.multi-player.games/playstation-3/all/4/local](https://www.multi-player.games/playstation-3/all/4/local)
+
+# Roms
+[https://dlpsgame.com/list-all-game-ps3/](https://dlpsgame.com/list-all-game-ps3/)
+[https://vimm.net/](https://vimm.net/)
