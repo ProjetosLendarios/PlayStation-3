@@ -6,6 +6,7 @@
 [https://www.youtube.com/watch?v=jsXshfeHs38](https://www.youtube.com/watch?v=jsXshfeHs38)
 [https://www.youtube.com/watch?v=PlCBfbLm4II](https://www.youtube.com/watch?v=PlCBfbLm4II)
 [https://github.com/friendlyanon/CFW2OFW-Helper](https://github.com/friendlyanon/CFW2OFW-Helper)
+[https://www.youtube.com/watch?v=1rexv9pqM1E](https://www.youtube.com/watch?v=1rexv9pqM1E)
 
 [PS3xploit.me](PS3xploit.me)
 
@@ -15,3 +16,9 @@
 [https://github.com/ErikPshat/GamePad-Test](https://github.com/ErikPshat/GamePad-Test)
 
 [https://psdevwiki.com/ps3/Template:PS3_HDD_Game_Structure](https://psdevwiki.com/ps3/Template:PS3_HDD_Game_Structure)
+
+[https://www.multi-player.games/playstation-3/all/4/local](https://www.multi-player.games/playstation-3/all/4/local)
+
+# Roms
+[https://dlpsgame.com/list-all-game-ps3/](https://dlpsgame.com/list-all-game-ps3/)
+[https://vimm.net/](https://vimm.net/)
